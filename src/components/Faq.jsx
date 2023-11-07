@@ -7,6 +7,7 @@ const Faq = () => {
         backgroundPosition: 'center',
       };
   return (
+    <>
     <div
       className="bg-smoke2 space overflow-hidden"
       id="faq-sec"
@@ -172,6 +173,7 @@ const Faq = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
