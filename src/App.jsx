@@ -1,5 +1,6 @@
 import About from "./components/About"
 import Banner from "./components/Banner"
+import Blog from "./components/Blog"
 import Choose from "./components/Choose"
 import Faq from "./components/Faq"
 import Feedback from "./components/Feedback"
@@ -24,6 +25,7 @@ function App() {
       <Faq />
       {/* <Photo /> */}
       <Feedback />
+      <Blog />
       <Footer />
     </>
   )

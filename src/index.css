@@ -2113,11 +2113,6 @@ hr.title-line {
     }
 }
 
-.shape-mockup-wrap {
-    z-index: 2;
-    position: relative
-}
-
 .shape-mockup {
     position: absolute;
     z-index: -1;
@@ -2370,7 +2365,14 @@ hr.title-line {
 }
 
 .bg-smoke2 {
-    background-color: var(--smoke-color2) !important
+    background-color: var(--smoke-color2) !important;
+    background-size: cover;
+    
+}
+.bg-smoke3 {
+    background-color: var(--smoke-color2) !important;
+    background-size: cover;
+    
 }
 
 .bg-white {

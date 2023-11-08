@@ -127,6 +127,41 @@ const productData = [
       text: "Our products are certified by reputable organic.",
     },
   ];
+
+  const blogData = [
+    {
+      id: 1,
+      image: 'Image/blog/blog_2_1.jpg',
+      author: 'Frutin',
+      date: '15 March, 2023',
+      title: 'Change Your Eating Habits With Organic Food',
+      text: 'Organic foods can be more expensive due to the labor-intensive nature.',
+    },
+    {
+      id: 2,
+      image: 'Image/blog/blog_2_2.jpg',
+      author: 'Frutin',
+      date: '16 March, 2023',
+      title: 'Transform Your Nutrition with Organic Meal',
+      text: 'Organic foods can be more expensive due to the labor-intensive nature.',
+    },
+    {
+      id: 3,
+      image: 'Image/blog/blog_2_3.jpg',
+      author: 'Frutin',
+      date: '17 March, 2023',
+      title: 'Improve Your Health By Organic Eating',
+      text: 'Organic foods can be more expensive due to the labor-intensive nature.',
+    },
+    {
+      id: 4,
+      image: 'Image/blog/blog_2_4.jpg',
+      author: 'Frutin',
+      date: '19 March, 2023',
+      title: 'Organic Eating Is Great For Better Health',
+      text: 'Organic foods can be more expensive due to the labor-intensive nature.',
+    },
+  ];
   
 
   const footerData = {
@@ -140,5 +175,5 @@ const productData = [
   
   
   
-  export {aboutData, serviceData, productData, featuresData, footerData};
+  export {aboutData, serviceData, productData, featuresData, blogData, footerData};
   
