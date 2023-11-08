@@ -29,10 +29,6 @@ const Feedback = () => {
             spaceBetween={50}
             slidesPerView={1}
             centeredSlides={true}
-            autoplay={{ 
-              delay: 2500,
-              disableOnInteraction: false,
-             }}
             navigation={{ 
                 prevEl: '.prev',
                 nextEl: '.next'
